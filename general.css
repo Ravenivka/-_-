@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin: 0;}
+#top{
+	margin: 0;
+	padding-top: 1%;
+	width: 100vw;	
+	background-color: navy;
+	color: burlywood;
+}
+#fon{
+	background-color: navy;
+}
+#main{	
+	padding: 1%;
+	width: 80vw;	
+	float: left;
+	position: relative;
+	background-color: white;
+	display: block;
+	margin-top: 0;
+	margin-left: 10vw;
+}
+.white{
+	background-color: white;
+	margin: 3px;
+}
+
+
+
+
+
+.topmenu{
+	padding:10px;
+	background-color: navy;
+	width: 95%;
+}
+.topbutton{
+	padding: 1%;
+	background-color: navy;
+	color: yellow;
+	margin-right: 10px;
+	float: left;
+}
+

@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<style>
+		body{
+			margin: 0;
+			height: 100vh;
+		}
+		#div1{
+			position: absolute;
+			width: 40%;
+			left: 30%;
+			height: 20%;
+			top: 40%;
+			display: block;
+		}
+		#table1{
+			width: 80%;
+			margin-top: 0;
+			margin-left: auto;
+			margin-right: auto;
+			border: 2px solid black;
+		}
+	
+	</style>
+<meta charset="utf-8">
+<title>Тесты - вход</title>
+</head>
+
+<body>
+	<div id="div1">
+	<form method="post">
+		<br>
+	<table id="table1">
+		<tr><td>Login</td><td><input type="text" style="width: 95%;" name="login" required id="login"/></td></tr>
+		<tr><td>Password</td><td><input type="password" style="width: 95%;" name="password" required id="password"/></td></tr>
+		<tr><td colspan ="2" align="center"><button type="submit" formaction="autorize.php">OK</button></td></tr>
+		<tr><td colspan ="2" align="center"><font  color="red"><b>Нет учетной записи?</b></font></td></tr>
+		<tr><td colspan ="2" align="center"><a href="reg.php">РЕГИСТРАЦИЯ</a></td></tr>
+	</table>
+		
+	</form>
+		
+	</div>
+</body>
+</html>
